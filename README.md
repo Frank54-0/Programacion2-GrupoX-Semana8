@@ -15,5 +15,5 @@ Universidad	Evangélica	de	El	Salvador
 -	Nombre	Apellido	—	Pareja	4	(Modelo)
 -	Nombre	Apellido	—	Pareja	5	(Modelo)
 -	Nombre	Apellido	—	Pareja	5	(Modelo)
--	Nombre	Apellido	—	Pareja	6	(Modelo)
+-	Jesus Sanchez	— jesusanchezore-star- Pareja	6	(Utilidades)
 -	Nombre	Apellido	—	Pareja	6	(Modelo)
