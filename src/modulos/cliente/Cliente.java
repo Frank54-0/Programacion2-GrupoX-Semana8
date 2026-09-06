@@ -79,4 +79,12 @@ public class Cliente {
         }
         return "Sin email";
     }
+
+    // NUEVO MÉTODO: Información formateada
+    public String obtenerInfoFormato() {
+        return "ID: " + id + "\n" +
+                "Nombre: " + nombre + "\n" +
+                "Email: " + email + "\n" +
+                "Teléfono: " + telefono;
+    }
 }
