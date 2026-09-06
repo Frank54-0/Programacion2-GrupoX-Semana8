@@ -57,7 +57,7 @@ public class Main {
         scanner.close();
 
     }
-        public static void mostrarBienvenida() {
+        mostrarBienvenida() {
             System.out.println("\n╔══════════════════════════════════════════╗");
             System.out.println("║                                          ║");
             System.out.println("║            SISTEMA DE GESTIÓN              ║");
@@ -72,7 +72,7 @@ public class Main {
 
     public static void mostrarMenu() {
             System.out.println("\n╔════════════════════════════════════════╗");
-            System.out.println("║           MENÚ PRINCIPAL               ║");
+            System.out.println("║        MENÚ PRINCIPAL no conflictivo   ║");
             System.out.println("╠════════════════════════════════════════╣");
             System.out.println("║  1. Gestionar Clientes                 ║");
             System.out.println("║  2. Gestionar Productos                ║");
