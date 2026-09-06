@@ -6,7 +6,7 @@ Universidad	Evangélica	de	El	Salvador
 -	Franklin Fuentes	—	Git	Master
 -	Nombre	Apellido	—	QA
 -	Franklin Fuentes 	— Pareja	1	(Modelo)
--	Nombre	Apellido	—	Pareja	1	(Modelo)
+-	Jireh Trigueros	—	Pareja	1	(Modelo)
 -	Gabriela Pérez 	—	Pareja	2	(Modelo)
 -	Nombre	Apellido	—	Pareja	2	(Modelo)
 -	Salvador Ernesto Galdámez	—	Sglmz - Pareja	3	(Pedido)
