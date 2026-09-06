@@ -63,7 +63,8 @@ public class Pedido {
             return false;
         }
         return estado.equals("Pendiente") || estado.equals("Procesado")
-                || estado.equals("Enviado") || estado.equals("Entregado");
+                || estado.equals("Enviado") || estado.equals("Entregado")
+                || estado.equals("Cancelado");
     }
 
     public boolean cambiarEstado(String nuevoEstado) {
