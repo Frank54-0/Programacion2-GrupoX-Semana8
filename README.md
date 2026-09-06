@@ -7,7 +7,7 @@ Universidad	Evangélica	de	El	Salvador
 -	Nombre	Apellido	—	QA
 -	Nombre	Apellido	—	Pareja	1	(Modelo)
 -	Nombre	Apellido	—	Pareja	1	(Modelo)
--	Nombre	Apellido	—	Pareja	2	(Modelo)
+-	Gabriela Pérez 	—	Pareja	2	(Modelo)
 -	Nombre	Apellido	—	Pareja	2	(Modelo)
 -	Salvador Galdámez	—	Pareja	3	(Pedido)
 -	Cindy Canales	—	Pareja	3	(Pedido)
