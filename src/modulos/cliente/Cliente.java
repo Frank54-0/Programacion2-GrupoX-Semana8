@@ -21,24 +21,12 @@ public class Cliente {
         return nombre;
     }
 
-    public void setNombre(String nombre) {
-        this.nombre = nombre;
-    }
-
     public String getEmail() {
         return email;
     }
 
-    public void setEmail(String email) {
-        this.email = email;
-    }
-
     public String getTelefono() {
         return telefono;
-    }
-
-    public void setTelefono(String telefono) {
-        this.telefono = telefono;
     }
 
     @Override
@@ -49,5 +37,46 @@ public class Cliente {
                 ", email='" + email + '\'' +
                 ", telefono='" + telefono + '\'' +
                 '}';
+    }
+
+    // VALIDACIONES
+    public void setNombre(String nombre) {
+        if (nombre != null && !nombre.isEmpty() && nombre.matches("[a-zA-ZáéíóúÁÉÍÓÚ ]+")) {
+            this.nombre = nombre;
+        } else {
+            System.out.println("ERROR: Nombre inválido. Debe contener solo letras.");
+        }
+    }
+
+    public void setEmail(String email) {
+        if (email != null && email.contains("@") && email.contains(".")) {
+            this.email = email;
+        } else {
+            System.out.println("ERROR: Email inválido. Debe contener @ y punto.");
+        }
+    }
+
+    public void setTelefono(String telefono) {
+        if (telefono != null && telefono.matches("\\d{8}")) {
+            this.telefono = telefono;
+        } else {
+            System.out.println("ERROR: Teléfono inválido. Debe tener 8 dígitos.");
+        }
+    }
+
+    // NUEVO MÉTODO: Validar cliente completo
+    public boolean esClienteValido() {
+        return nombre != null && !nombre.isEmpty() &&
+                email != null && email.contains("@") &&
+                telefono != null && telefono.matches("\\d{8}") &&
+                id >= 1;
+    }
+
+    // NUEVO MÉTODO: Obtener dominio del email
+    public String obtenerDominioEmail() {
+        if (email != null && email.contains("@")) {
+            return email.substring(email.indexOf("@"));
+        }
+        return "Sin email";
     }
 }
