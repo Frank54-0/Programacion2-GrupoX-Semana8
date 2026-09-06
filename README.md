@@ -17,4 +17,4 @@ Universidad	Evangélica	de	El	Salvador
 -	Emerson Eduardo Candido Joya	—	Pareja	5	(Clase java.main)
 -	Jesus Sanchez	— jesusanchezore-star- Pareja	6	(Utilidades)
 -	Julio Cesar Perez Salazar - julitosalazar991-ux-  pareja 6 (utilidades)
--	Nombre	Apellido	—	Pareja	6	(Modelo)
+
