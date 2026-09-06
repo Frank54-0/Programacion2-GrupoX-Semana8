@@ -72,7 +72,7 @@ public class Main {
 
     public static void mostrarMenu() {
             System.out.println("\n╔════════════════════════════════════════╗");
-            System.out.println("║           MENÚ PRINCIPAL               ║");
+            System.out.println("║    MENÚ PRINCIPAL-El del conflicto     ║");
             System.out.println("╠════════════════════════════════════════╣");
             System.out.println("║  1. Gestionar Clientes                 ║");
             System.out.println("║  2. Gestionar Productos                ║");
