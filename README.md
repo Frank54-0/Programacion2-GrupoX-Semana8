@@ -4,7 +4,7 @@ Universidad	Evangélica	de	El	Salvador
 
 ##	Integrantes
 -	Franklin Fuentes	—	Git	Master
--	Nombre	Apellido	—	QA
+-	Gabriel Fuentes	—	QA
 -	Franklin Fuentes 	— Pareja	1	(Modelo)
 -	Jireh Trigueros	—	Pareja	1	(Modelo)
 -	Gabriela Pérez 	—	Pareja	2	(Modelo)
