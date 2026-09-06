@@ -227,5 +227,4 @@ public class Validaciones {
     }
 }
 
-        return suma % 10 == 0;
-    }
+
