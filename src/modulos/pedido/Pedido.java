@@ -59,8 +59,11 @@ public class Pedido {
     }
 
     private boolean esEstadoValido(String estado) {
-        return estado != null && (estado.equals("Pendiente") || estado.equals("Procesado")
-                || estado.equals("Enviado") || estado.equals("Entregado"));
+        if (estado == null || estado.trim().isEmpty()) {
+            return false;
+        }
+        return estado.equals("Pendiente") || estado.equals("Procesado")
+                || estado.equals("Enviado") || estado.equals("Entregado");
     }
 
     public boolean cambiarEstado(String nuevoEstado) {
@@ -73,6 +76,19 @@ public class Pedido {
 
     public long diasDesdeCompra() {
         return java.time.temporal.ChronoUnit.DAYS.between(fecha, LocalDate.now());
+    }
+
+    public boolean cancelarPedido() {
+        if (estado.equals("Entregado") || estado.equals("Cancelado")) {
+            return false;
+        }
+        estado = "Cancelado";
+        return true;
+    }
+
+    public String obtenerEstadoDetallado() {
+        return "Pedido #" + id + " - Cliente " + idCliente + " - Estado: " + estado
+                + " - Total: " + total + " - Dias desde compra: " + diasDesdeCompra();
     }
 
     @Override
