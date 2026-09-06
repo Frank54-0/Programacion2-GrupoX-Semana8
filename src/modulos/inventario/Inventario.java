@@ -104,4 +104,53 @@ public class Inventario {
                 "Estado: " + obtenerEstadoStock() + "\n" +
                 "Reorden urgente: " + (necesitaReorden() ? "SÍ" : "NO");
     }
+
+    // ==========================================
+    // MÉTODOS DE ANÁLISIS Y REPORTES (Estudiante 2)
+    // ==========================================
+
+    public void setCantidadMinima(int cantidadMinima) {
+        if (cantidadMinima >= 0) {
+            this.cantidadMinima = cantidadMinima;
+        } else {
+            System.out.println("ERROR: La cantidad mínima no puede ser negativa.");
+        }
+    }
+
+    // NUEVO MÉTODO: Verificar si el stock supera la capacidad máxima
+    public boolean estaEnExceso(int cantidadMaxima) {
+        return cantidadMaxima > 0 && this.cantidad > cantidadMaxima;
+    }
+
+    // NUEVO MÉTODO: Calcular índice de rotación según unidades vendidas
+    public double calcularIndiceRotacion(int unidadesVendidas) {
+        if (this.cantidad <= 0 || unidadesVendidas <= 0) {
+            return 0.0;
+        }
+        return (double) unidadesVendidas / this.cantidad;
+    }
+
+    // NUEVO MÉTODO: Clasificación del nivel de rotación
+    public String clasificarRotacion(int unidadesVendidas) {
+        double rotacion = calcularIndiceRotacion(unidadesVendidas);
+        if (rotacion >= 3.0) {
+            return "ALTA ROTACIÓN";
+        } else if (rotacion >= 1.0) {
+            return "ROTACIÓN MEDIA";
+        } else {
+            return "BAJA ROTACIÓN";
+        }
+    }
+
+    // NUEVO MÉTODO: Generar reporte consolidado de inventario
+    public String generarReporteConsolidado(int cantidadMaxima, int unidadesVendidas) {
+        return "=== REPORTE DE INVENTARIO ===\n" +
+                obtenerInformacionDetallada() + "\n" +
+                "Capacidad máxima: " + cantidadMaxima + "\n" +
+                "Ocupación: " + String.format("%.2f", calcularPorcentajeStock(cantidadMaxima)) + "%\n" +
+                "Faltante para mínimo: " + calcularFaltanteParaMinimo() + "\n" +
+                "Rotación: " + clasificarRotacion(unidadesVendidas) + " (Índice: " + String.format("%.2f", calcularIndiceRotacion(unidadesVendidas)) + ")\n" +
+                "Exceso de stock: " + (estaEnExceso(cantidadMaxima) ? "SÍ" : "NO") + "\n" +
+                "=============================";
+    }
 }
