@@ -12,7 +12,7 @@ Universidad	Evangélica	de	El	Salvador
 -	Salvador Galdámez	—	Pareja	3	(Pedido)
 -	Cindy Canales	—	Pareja	3	(Pedido)
 -	Carla Franco — ch44rli33 -	Pareja	4	(Inventario)
--	Nombre	Apellido	—	Pareja	4	(Modelo)
+-	Christian Alessandro Marin Sandoval - Pareja 4 (Inventario)
 -	Gabriel Alejandro Fuentes Chavarria	—	Pareja	5	(Clase java.main)
 -	Emerson Eduardo Candido Joya	—	Pareja	5	(Clase java.main)
 -	Jesus Sanchez	— jesusanchezore-star- Pareja	6	(Utilidades)
