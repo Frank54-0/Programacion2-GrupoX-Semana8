@@ -7,18 +7,7 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         boolean salir = false;
 
-        public static void mostrarBienvenida() {
-            System.out.println("\n╔══════════════════════════════════════════╗");
-            System.out.println("║                                          ║");
-            System.out.println("║            SISTEMA DE GESTIÓN              ║");
-            System.out.println("║                DE TIENDAS                ║");
-            System.out.println("║                                          ║");
-            System.out.println("║              ── Versión 1.0 ──           ║");
-            System.out.println("║                                          ║");
-            System.out.println("║        ¡Bienvenido(a) al sistema!       ║");
-            System.out.println("║                                          ║");
-            System.out.println("╚══════════════════════════════════════════╝\n")
-        }
+        mostrarBienvenida();
 
         while (!salir) {
             mostrarMenu();
@@ -65,23 +54,35 @@ public class Main {
             }
 
         }
-    }
         scanner.close();
-}
 
-public static void mostrarMenu() {
-    public static void mostrarMenu() {
-        System.out.println("\n╔════════════════════════════════════════╗");
-        System.out.println("║           MENÚ PRINCIPAL               ║");
-        System.out.println("╠════════════════════════════════════════╣");
-        System.out.println("║  1. Gestionar Clientes                 ║");
-        System.out.println("║  2. Gestionar Productos                ║");
-        System.out.println("║  3. Gestionar Pedidos                  ║");
-        System.out.println("║  4. Ver Inventario                     ║");
-        System.out.println("║  5. Reportes y Análisis                ║");
-        System.out.println("║  6. Configuración                      ║");
-        System.out.println("║  7. Salir                              ║");
-        System.out.println("╚════════════════════════════════════════╝");
     }
-}
-}
+        public static void mostrarBienvenida() {
+            System.out.println("\n╔══════════════════════════════════════════╗");
+            System.out.println("║                                          ║");
+            System.out.println("║            SISTEMA DE GESTIÓN              ║");
+            System.out.println("║                DE TIENDAS                ║");
+            System.out.println("║                                          ║");
+            System.out.println("║              ── Versión 1.0 ──           ║");
+            System.out.println("║                                          ║");
+            System.out.println("║        ¡Bienvenido(a) al sistema!       ║");
+            System.out.println("║                                          ║");
+            System.out.println("╚══════════════════════════════════════════╝\n");
+        }
+
+    public static void mostrarMenu() {
+            System.out.println("\n╔════════════════════════════════════════╗");
+            System.out.println("║           MENÚ PRINCIPAL               ║");
+            System.out.println("╠════════════════════════════════════════╣");
+            System.out.println("║  1. Gestionar Clientes                 ║");
+            System.out.println("║  2. Gestionar Productos                ║");
+            System.out.println("║  3. Gestionar Pedidos                  ║");
+            System.out.println("║  4. Ver Inventario                     ║");
+            System.out.println("║  5. Reportes y Análisis                ║");
+            System.out.println("║  6. Configuración                      ║");
+            System.out.println("║  7. Salir                              ║");
+            System.out.println("╚════════════════════════════════════════╝");
+        }
+
+    }
+
