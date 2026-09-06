@@ -16,4 +16,5 @@ Universidad	Evangélica	de	El	Salvador
 -	Gabriel Alejandro Fuentes Chavarria	—	Pareja	5	(Clase java.main)
 -	Emerson Eduardo Candido Joya	—	Pareja	5	(Clase java.main)
 -	Jesus Sanchez	— jesusanchezore-star- Pareja	6	(Utilidades)
+-	Julio Cesar Perez Salazar - julitosalazar991-ux-  pareja 6 (utilidades)
 -	Nombre	Apellido	—	Pareja	6	(Modelo)
