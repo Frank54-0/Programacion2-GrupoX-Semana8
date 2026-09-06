@@ -7,8 +7,8 @@ Universidad	Evangélica	de	El	Salvador
 -	Gabriel Fuentes	—	QA
 -	Franklin Fuentes 	— Pareja	1	(Modelo)
 -	Jireh Trigueros	—	Pareja	1	(Modelo)
--	Gabriela Pérez 	—	Pareja	2	(Modelo)
--	Imanol Ramírez	—	Pareja	2	(Modelo)
+-	Gabriela Pérez 	—	Gabss16 - Pareja	2	(Modelo)
+-	Imanol Ramírez	—	imanollramirez - Pareja	2	(Modelo)
 -	Salvador Ernesto Galdámez	—	Sglmz - Pareja	3	(Pedido)
 -	Cindy Shaiel Canales	—	Shouya16 - Pareja 3	(Pedido)
 -	Carla Franco — ch44rli33 -	Pareja	4	(Inventario)
