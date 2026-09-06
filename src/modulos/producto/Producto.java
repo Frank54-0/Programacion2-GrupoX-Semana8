@@ -95,6 +95,20 @@ public class Producto {
         return this.precio + calcularIVA();
     }
 
+    // NUEVO MÉTODO: Comparar precio con otro producto
+    public int compararPrecio(Producto otro) {
+        return Double.compare(this.precio, otro.getPrecio());
+    }
+
+    // NUEVO MÉTODO: Validar que el nombre no contenga caracteres numéricos
+    public boolean validarNombreSinNumeros() {
+        if (nombre != null && nombre.matches(".*\\d.*")) {
+            System.out.println("ERROR: El nombre no debe contener números.");
+            return false;
+        }
+        return true;
+    }
+
     // NUEVO MÉTODO: Obtener categoría según precio
     public String obtenerCategoria() {
         if (this.precio < 2.00) {
