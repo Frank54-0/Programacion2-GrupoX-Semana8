@@ -185,4 +185,47 @@ public class Validaciones {
         // Acepta números y guiones (ej: 12345-6789)
         return id.matches("\\d{5}-\\d{4}");
     }
+
+    // Validar color hexadecimal (#RGB o #RRGGBB) — agregado por Estudiante 2
+    public static boolean esColorHexValido(String color) {
+        if (color == null || color.isEmpty()) {
+            return false;
+        }
+        return color.matches("^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$");
+    }
+
+    // Validar número de tarjeta de crédito (algoritmo de Luhn) — agregado por Estudiante 2
+    public static boolean esNumeroTarjetaValido(String numero) {
+        if (numero == null || numero.isEmpty()) {
+            return false;
+        }
+
+        // Quitar espacios y guiones antes de validar
+        String limpio = numero.replaceAll("[\\s-]", "");
+
+        // Debe tener entre 13 y 19 dígitos
+        if (!limpio.matches("\\d{13,19}")) {
+            return false;
+        }
+
+        // Algoritmo de Luhn
+        int suma = 0;
+        boolean alternar = false;
+        for (int i = limpio.length() - 1; i >= 0; i--) {
+            int digito = Character.getNumericValue(limpio.charAt(i));
+            if (alternar) {
+                digito *= 2;
+                if (digito > 9) {
+                    digito -= 9;
+                }
+            }
+                  suma += digito;
+            alternar = !alternar;
+        }
+
+        return suma % 10 == 0;
+    }
 }
+
+        return suma % 10 == 0;
+    }
