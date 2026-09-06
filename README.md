@@ -11,7 +11,7 @@ Universidad	Evangélica	de	El	Salvador
 -	Nombre	Apellido	—	Pareja	2	(Modelo)
 -	Nombre	Apellido	—	Pareja	3	(Modelo)
 -	Nombre	Apellido	—	Pareja	3	(Modelo)
--	Nombre	Apellido	—	Pareja	4	(Modelo)
+-	Carla Franco — ch44rli33 -	Pareja	4	(Inventario)
 -	Nombre	Apellido	—	Pareja	4	(Modelo)
 -	Nombre	Apellido	—	Pareja	5	(Modelo)
 -	Nombre	Apellido	—	Pareja	5	(Modelo)
