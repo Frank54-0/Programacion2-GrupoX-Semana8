@@ -6,4 +6,14 @@ Universidad	Evangélica	de	El	Salvador
 -	Nombre	Apellido	—	Git	Master
 -	Nombre	Apellido	—	QA
 -	Nombre	Apellido	—	Pareja	1	(Modelo)
--	Nombre	Apellido	—	Pareja	1	(Modelo)-	...
+-	Nombre	Apellido	—	Pareja	1	(Modelo)
+-	Nombre	Apellido	—	Pareja	2	(Modelo)
+-	Nombre	Apellido	—	Pareja	2	(Modelo)
+-	Nombre	Apellido	—	Pareja	3	(Modelo)
+-	Nombre	Apellido	—	Pareja	3	(Modelo)
+-	Nombre	Apellido	—	Pareja	4	(Modelo)
+-	Nombre	Apellido	—	Pareja	4	(Modelo)
+-	Nombre	Apellido	—	Pareja	5	(Modelo)
+-	Nombre	Apellido	—	Pareja	5	(Modelo)
+-	Nombre	Apellido	—	Pareja	6	(Modelo)
+-	Nombre	Apellido	—	Pareja	6	(Modelo)
